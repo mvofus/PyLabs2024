@@ -1,0 +1,10 @@
+# TODO Найдите количество книг, которое можно разместить на дискете
+SIZE = 1.44 * 1024 * 1024
+PAGES_COUNT = 100
+ROWS_COUNT = 50
+SYMBOL_COUNT = 25
+SYMBOL_SIZE = 4
+
+books_count = SIZE // (PAGES_COUNT * ROWS_COUNT * SYMBOL_COUNT * SYMBOL_SIZE)
+
+print("Количество книг, помещающихся на дискету:", int(books_count))
