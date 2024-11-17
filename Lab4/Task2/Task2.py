@@ -14,7 +14,7 @@ def task() -> None:
         data = [row for row in reader]
 
     # Запись данных в JSON файл с отступами равными 4
-    with open(OUTPUT_FILENAME, mode='w', encoding='utf-8') as json_file:
+    with open(OUTPUT_FILENAME, mode='w') as json_file:
         json.dump(data, json_file, indent=4)
 
 
@@ -25,3 +25,4 @@ if __name__ == '__main__':
     with open(OUTPUT_FILENAME) as output_f:
         for line in output_f:
             print(line, end="")
+            
