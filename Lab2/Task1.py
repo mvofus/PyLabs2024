@@ -11,3 +11,4 @@ while money_capital > 0:
     months += 1
 months -= 1
 print("Количество месяцев, которое можно протянуть без долгов:", months)
+

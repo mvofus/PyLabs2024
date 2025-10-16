@@ -12,3 +12,4 @@ while months_count > 0:
     months_count -= 1
 
 print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", int(money_capital))
+
